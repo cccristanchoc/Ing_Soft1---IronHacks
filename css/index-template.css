@@ -1,0 +1,44 @@
+body {
+    padding-top: 50px;
+    background-color: #DCDCDC;
+}
+
+.carousel {
+    height: 300px; 
+    margin-bottom: 50px;
+    background-color: #777;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 270px;
+}
+
+.carousel-inner > .item_active {
+    top: auto;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 50%;
+  height: 300px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
